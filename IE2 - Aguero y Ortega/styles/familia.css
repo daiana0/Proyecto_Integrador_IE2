@@ -1,0 +1,48 @@
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 20px 0 20px;
+    margin-bottom: 20px;
+}
+.image{
+    float: left;
+    margin: 20px 20px 20px 20px ;
+    max-width: 30%;
+    
+
+}
+.centrado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery {
+    flex: 0 1 30%;
+    margin: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    max-height: 350px; 
+   
+}
+.gallery img:hover {
+    transform: scale(1.1);
+    border: 2px solid #00b7ff;
+}
+
+.desc {
+    padding: 5px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

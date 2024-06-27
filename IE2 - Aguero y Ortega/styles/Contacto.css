@@ -1,0 +1,81 @@
+
+/* con esto el formulario nos aparece en el centro de la pantalla */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenedor-formulario {
+    font-family:  "Indie Flower", cursive;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    
+}
+.contenedor-formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenedor-formulario label {
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+   
+}
+
+/* estilos para cada caja  */
+.contenedor-formulario input[type="text"],
+.contenedor-formulario input[type="email"],
+.contenedor-formulario select,
+.contenedor-formulario textarea {
+        font-family:  "Indie Flower", cursive;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    
+}
+
+/* estilo para el boton enviar */
+.contenedor-formulario input[type="submit"] {
+    font-family:  "Indie Flower", cursive;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+    .contenedor-formulario input[type="submit"]:hover {
+        background-color: #013b04;
+    }
+.contenedor-formulario input[type="radio"] {
+    margin-left: 1px;
+    
+   
+}
+
+/* estilo para caja de audio */
+.contenedor-formulario .centrado {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contenedor-formulario textarea {
+    height: 80px;
+    resize: none;
+}
+
+
+
+
+
+
+
+
